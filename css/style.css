@@ -134,6 +134,19 @@ a {
 .nav ul li a:hover::after {
   display: block;
 }
+.home {
+  position: relative;
+}
+.home::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
+  width: 44%;
+  height: 1px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
 .button {
   display: inline-block;
   font-weight: 500;
